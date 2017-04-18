@@ -15,6 +15,7 @@ then, just need to clone this repo and then you just need to run the following c
 go run main.go
 ```
 
+---
 ## Support 
 
 if you are my subject professor and you want to run this code to evaluate my task you just need to ask for the compile binary of this code.
