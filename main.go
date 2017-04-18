@@ -31,7 +31,7 @@ func main() {
 	groupByAge(pp)
 
 	elapsed := time.Since(start)
-	fmt.Printf("query time: %d\n", elapsed)
+	fmt.Println("query time: ", elapsed)
 }
 
 func groupByAge(pp []*schemes.Person) {
