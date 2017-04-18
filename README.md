@@ -16,6 +16,6 @@ go run main.go
 ```
 
 ---
-## Support 
+##Support 
 
 if you are my subject professor and you want to run this code to evaluate my task you just need to ask for the compile binary of this code.
