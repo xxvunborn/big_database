@@ -21,14 +21,14 @@ func main() {
 	fmt.Println("database connection established")
 
 	ps := &schemes.PersonService{Datastore: ds}
-	query := `select * from persons1`
+	query := `select age from persons2 group by age`
 	start := time.Now()
-	pp, err := ps.Persons(query)
+	_, err = ps.Persons(query)
 	if err != nil {
 		_ = fmt.Errorf("error %+v\n", err)
 	}
 
-	groupByAge(pp)
+	//groupByAge(pp)
 
 	elapsed := time.Since(start)
 	fmt.Println("query time: ", elapsed)
